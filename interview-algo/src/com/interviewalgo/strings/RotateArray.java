@@ -30,7 +30,7 @@ public class RotateArray {
         for (int i : num2) {
             System.out.print(i + ", ");
         }
-        
+
         System.out.println();
         System.out.println("Reversal array : ");
         for (int i : num3) {

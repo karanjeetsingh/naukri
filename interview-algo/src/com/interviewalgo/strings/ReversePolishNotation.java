@@ -48,7 +48,7 @@ public class ReversePolishNotation {
                 }
             }
         }
-        
+
         returnValue = Float.valueOf(stack.pop());
 
         return returnValue;

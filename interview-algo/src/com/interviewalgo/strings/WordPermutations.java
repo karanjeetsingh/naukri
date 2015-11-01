@@ -1,5 +1,10 @@
 package com.interviewalgo.strings;
 
+/**
+ * 
+ * @author ksingh
+ *
+ */
 public class WordPermutations {
     public static void main(String[] args) {
         String s = "abc";

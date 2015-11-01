@@ -1,5 +1,10 @@
 package com.interviewalgo.strings;
 
+/**
+ * 
+ * @author ksingh
+ * 
+ */
 public class PatterMatching {
     public static void main(String[] args) {
         String s1 = "abcdddddeffft";
@@ -38,7 +43,7 @@ public class PatterMatching {
                 System.out.println("index - " + index + "\ts - " + s + "\ti - " + i + "\tr - " + r + "\tnext - " + next);
             }
         }
-        if(index != s1.length()){
+        if (index != s1.length()) {
             return false;
         }
         return true;
