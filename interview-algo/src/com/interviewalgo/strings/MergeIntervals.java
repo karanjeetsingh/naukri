@@ -31,12 +31,10 @@ public class MergeIntervals {
         if (intervals == null || intervals.size() <= 1) {
             return intervals;
         }
+        
         List<Interval> result = new ArrayList<Interval>();
-
         Collections.sort(intervals, new IntervalComparator());
-
         Interval prev = intervals.get(0);
-
         for (int index = 1; index < intervals.size(); index++) {
             Interval curr = intervals.get(index);
             if (prev.end >= curr.start) {
