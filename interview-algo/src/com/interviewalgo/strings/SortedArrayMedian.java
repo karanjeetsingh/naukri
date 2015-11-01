@@ -1,4 +1,4 @@
-package com.iq.sortarraymedian;
+package com.interviewalgo.strings;
 
 import java.util.Scanner;
 

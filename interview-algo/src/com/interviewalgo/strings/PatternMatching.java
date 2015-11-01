@@ -1,4 +1,4 @@
-package com.iq.patternmatch;
+package com.interviewalgo.strings;
 
 class IsaMatch {
 	boolean isMatch(String str, String pass) {

@@ -1,4 +1,4 @@
-package com.iq.wordladder;
+package com.interviewalgo.strings;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -16,7 +16,7 @@ class WordNode {
 
 class solution {
 	public int ladderlength(String wordBegin, String wordEnd, Set<String> wordDict) {
-		LinkedList<WordNode> queue = new LinkedList<>();
+		LinkedList<WordNode> queue = new LinkedList<WordNode>();
 		queue.add(new WordNode(wordBegin, 1));
 
 		wordDict.add(wordEnd);
