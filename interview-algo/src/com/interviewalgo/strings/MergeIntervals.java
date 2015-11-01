@@ -39,7 +39,6 @@ public class MergeIntervals {
             Interval curr = intervals.get(index);
             if (prev.end >= curr.start) {
                 Interval merged = new Interval(prev.start, curr.end);
-                // result.add(merged);
                 prev = merged;
             } else {
                 result.add(prev);
