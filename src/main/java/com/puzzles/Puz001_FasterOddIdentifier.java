@@ -2,7 +2,7 @@ package com.puzzles;
 
 import java.util.Date;
 
-public class FasterOddIdentifier {
+public class Puz001_FasterOddIdentifier {
 
 	public static void main(String[] args) {
 		Date dt = new Date();
