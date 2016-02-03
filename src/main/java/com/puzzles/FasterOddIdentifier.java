@@ -1,4 +1,4 @@
-package com.interviewalgo.strings;
+package com.puzzles;
 
 import java.util.Date;
 
