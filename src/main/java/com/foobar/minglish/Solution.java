@@ -8,7 +8,8 @@ import java.util.List;
 public class Solution {
 	
 	public static void main(String[] args) {
-		String[] words = {"c","cac","cb","bcc","ba"};
+//		String[] words = {"c","cac","cb","bcc","ba"};
+		String[] words = {"z","yx","yz"};
 		System.out.println(answer(words));
 	}
 	
@@ -76,7 +77,7 @@ public class Solution {
 		
 		StringBuilder sb = new StringBuilder();
 		while(!dq.isEmpty()){
-			sb.append(dq.poll());
+			sb.append(dq.pop());
 		}
 		
 		return sb.toString();
@@ -90,7 +91,7 @@ public class Solution {
 			}
 			n.isVisited = true;
 			temp.remove(n);
-			dq.offer(n.ch);
+			dq.push(n.ch);
 		}	
 	}
 
